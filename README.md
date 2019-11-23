@@ -27,6 +27,7 @@ Visual Studio Code - text editor
 
 Node.js
 
+
 APIs:
 
 Spotify (https://developer.spotify.com/)
@@ -34,6 +35,7 @@ Spotify (https://developer.spotify.com/)
 OMDB (http://www.omdbapi.com)
 
 Bands In Town (http://www.artists.bandsintown.com/bandsintown-api)
+
 
 NPM Packages:
 
@@ -45,6 +47,7 @@ Moment (https://www.npmjs.com/package/moment)
 
 DotEnv (https://www.npmjs.com/package/dotenv)
 
+
 Prerequisites
 
 Node.js - download the latest version of Node (https://nodejs.org/en/).
@@ -52,6 +55,8 @@ Node.js - download the latest version of Node (https://nodejs.org/en/).
 Make a new GitHub repository called liri-node-app and clone it to your computer.
 
 Send requests using the axios package to the Bands in Town, Spotify and OMDB APIs.
+
+
 
 What Each Command Does
 
