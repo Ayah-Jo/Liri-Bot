@@ -27,17 +27,23 @@ Node.js
 APIs:
 
 Spotify (https://developer.spotify.com/)
+
 OMDB (http://www.omdbapi.com)
+
 Bands In Town (http://www.artists.bandsintown.com/bandsintown-api)
 
 NPM Packages:
 
 Node-Spotify-API (https://www.npmjs.com/package/node-spotify-api)
+
 Axios (https://www.npmjs.com/package/axios)
+
 Moment (https://www.npmjs.com/package/moment)
+
 DotEnv (https://www.npmjs.com/package/dotenv)
 
 Prerequisites
+
 Node.js - download the latest version of Node (https://nodejs.org/en/).
 
 Make a new GitHub repository called liri-node-app and clone it to your computer.
@@ -45,6 +51,7 @@ Make a new GitHub repository called liri-node-app and clone it to your computer.
 Send requests using the axios package to the Bands in Town, Spotify and OMDB APIs.
 
 What Each Command Does
+
 LIRI searches Bands in Town for concerts, Spotify for songs, and OMDB for movies.
 
 node liri.js concert-this '<artist/band name here>'
@@ -83,6 +90,7 @@ This will output the following movie information to your terminal/bash window:
   * Language(s)
   * Plot of the movie
   * Actors in the movie
+  
 If the user does not enter a movie selection, the program outputs data for the movie 'Mr. Nobody.'
 
 node liri.js do-what-it-says
