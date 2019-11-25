@@ -61,9 +61,9 @@ Send requests using the axios package to the Bands in Town, Spotify and OMDB API
 
 ## What Each Command Does
 
-## LIRI searches Bands in Town for concerts, Spotify for songs, and OMDB for movies.
+ LIRI searches Bands in Town for concerts, Spotify for songs, and OMDB for movies.
 
-#### node liri.js concert-this '<artist/band name here>'
+### node liri.js concert-this '<artist/band name here>'
 
 Searches the Bands in Town Artist Events API for an artist and renders the following information about each event to the terminal:
 
@@ -73,7 +73,9 @@ Venue location
 
 Date of the Event (using the format "MM/DD/YYYY")
 
-#### node liri.js spotify-this-song '<song name here>'
+![Concert](./Concert_this_Song_Pic.png)
+
+### node liri.js spotify-this-song '<song name here>'
 
 Displays the following information about the selected song in your terminal/bash window
 
@@ -87,7 +89,9 @@ The album containing the song
 
 If no song is provided, the program defaults to "The Sign" by Ace of Base.
 
-#### node liri.js movie-this '<movie name here>'
+![Song](./Spotify_this_song_Pic.png)
+
+### node liri.js movie-this '<movie name here>'
 
 This will output the following movie information to your terminal/bash window:
 
@@ -102,8 +106,12 @@ This will output the following movie information to your terminal/bash window:
   
 If the user does not enter a movie selection, the program outputs data for the movie 'Mr. Nobody.'
 
-#### node liri.js do-what-it-says
+![Movie](./Movie_this_Pic.png)
+
+### node liri.js do-what-it-says
 
 Runs spotify-this-song for "I Want it That Way".
 
-Refer to screenshots for visual representations of what the results should look like. 
+Refer to screenshots for visual representations of what the results should look like.
+
+![Input](./Do_what_it_says_Pic.png)
